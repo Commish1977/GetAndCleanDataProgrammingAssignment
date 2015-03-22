@@ -31,7 +31,7 @@ Part 4: Appropriately labels the data set with descriptive variable names.
 Part 5:From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
   Step 1: how big will this new data set be, take the dim and length sizes of data accordingly
   Step 2: copy over the column names
-  Step 3: look through the subjects
+  Step 3: loop through the subjects
     loop through the activities
       Calculate the mean for the matching subject and activity
   Step 4: Write the tidy data set with row.name=FALSE
