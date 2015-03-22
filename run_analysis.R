@@ -33,7 +33,7 @@
 	
 # Step3. Uses descriptive activity names to name the activities in the data set
 	## read in the activity data set labels text file
-	activityDataSet<- read.table("./UCI_HAR_Dataset/activity_labels.txt")
+	activityDataSet<- read.table("./UCI_HAR_Dataset/activity_labels.txt",stringsAsFactors=FALSE)
 
 # Step4. Appropriately labels the data set with descriptive activity names. 
 	## matching corresponding activity labels in the master label data set
